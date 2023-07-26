@@ -8,7 +8,6 @@
     <div class="container">
         <h2>Welcome</h2>
         <img src="avatars/<?php echo $avatar; ?>" alt="Avatar">
-        <!-- Display other user profile information here -->
         <a href="edit_profile.php">Edit Profile</a>
     </div>
 </body>

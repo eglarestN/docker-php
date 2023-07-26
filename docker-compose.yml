@@ -25,10 +25,10 @@ services:
     ports:
       - "3307:80"
     environment:
-      MYSQL_ROOT_PASSWORD: 2525
+      MYSQL_ROOT_PASSWORD: null
       MYSQL_DATABASE: radusers
-      MYSQL_USER: emir
-      MYSQL_PASSWORD: 2525
+      MYSQL_USER: null
+      MYSQL_PASSWORD: null
     volumes:
       - login_mysql:/var/lib/mysql
 
@@ -39,7 +39,7 @@ services:
       - "8080:80"
     environment:
       PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: 2525
+      MYSQL_ROOT_PASSWORD: null
 
 volumes:
   login_mysql:

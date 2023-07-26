@@ -1,6 +1,5 @@
 FROM php:8.1-fpm
 
-# Gerekli PHP eklentilerini yükle
 RUN docker-php-ext-install pdo pdo_mysql
 
 WORKDIR /var/www/html
